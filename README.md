@@ -1,8 +1,8 @@
-MagiCNet nutzt die alte Schnittstelle von MiNTNet zur Datenübertragen.
-Seit FreeMiNT 1.16.0 gibt es für diese Schnittstelle entsprechnden GEMDOS-
+MagiCNet nutzt die alte Schnittstelle von MiNTNet zur Daten√ºbertragen.
+Seit FreeMiNT 1.16.0 gibt es f√ºr diese Schnittstelle entsprechnden GEMDOS-
 Funktionen.
-Das Programm MiNTNet.Prg stellt nun ein Teil dieser Funktionen auch für 
-MagiCNet zur Verfügung. Somit benötigen Programme nur eine schnittstellen.
+Das Programm MiNTNet.Prg stellt nun ein Teil dieser Funktionen auch f√ºr 
+MagiCNet zur Verf√ºgung. Somit ben√∂tigen Programme nur eine schnittstellen.
 
 
 Gerhard Stoll
