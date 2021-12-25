@@ -1,12 +1,12 @@
-i:\c\src\magic\magicnet\net\mintnet.prg
+i:\c\src\magic\magicnet\magxmint.net\mintnet.prg
 
 .S[ -S -P -A ]
 
 .C[ -P -G- -C -M]
-.C[ -Ii:\c\src\magic\magicnet\net\pc\include\]
+.C[ -Ii:\c\src\magic\magicnet\magxmint.net\pc\include\]
 
 =
-pcstartb.o
+pc\lib\pcstartb.s
 
 mintnet.c
 trapper.c

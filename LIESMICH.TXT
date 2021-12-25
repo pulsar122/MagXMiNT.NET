@@ -1,11 +1,11 @@
-MiNTNet.Prg V0.01
+MiNTNet.Prg V0.02
 -----------------
 
 MagiCNet nutzt die alte Schnittstelle von MiNTNet zur DatenÅbertragen.
 Seit FreeMiNT 1.16.0 gibt es fÅr diese Schnittstelle entsprechnden GEMDOS-
 Funktionen.
-Das Programm MiNTNet.Prg stellt nun ein Teil dieser Funktionen auch fÅr 
-MagiCNet zur VerfÅgung. Somit benîtigen Programme nur eine schnittstellen.
+Das Programm MiNTNet.Prg stellt nun ein Teil dieser Funktionen auch fÅr
+MagiCNet zur VerfÅgung. Somit benîtigen Programme nur eine Schnittstelle.
 
 Installation:
 MiNTNet.Prg gehîrt in den APPS von MagiC. Kann aber auch nachtrÑglich von
@@ -13,26 +13,26 @@ Hand gestartet werden.
 Zwingend benîtigt wird das Programm Trapper.
 
 Aktuell werden folgende Funktionen unterstÅtzt:
-   352   0x160  Fsocket           x 
-   353   0x161  Fsocketpair        
-   354   0x162  Faccept           x 
-   355   0x163  Fconnect          x 
-   356   0x164  Fbind             x 
-   357   0x165  Flisten           x 
-   358   0x166  Frecvmsg           
-   359   0x167  Fsendmsg           
-   360   0x168  Frecvfrom          
-   361   0x169  Fsendto            
-   362   0x16A  Fsetsockopt        
-   363   0x16B  Fgetsockopt        
-   364   0x16C  Fgetpeername       
-   365   0x16D  Fgetsockname      x 
-   366   0x16E  Fshutdown         
+   352   0x160  Fsocket           x
+   353   0x161  Fsocketpair
+   354   0x162  Faccept           x
+   355   0x163  Fconnect          x
+   356   0x164  Fbind             x
+   357   0x165  Flisten           x
+   358   0x166  Frecvmsg
+   359   0x167  Fsendmsg
+   360   0x168  Frecvfrom         x
+   361   0x169  Fsendto           x
+   362   0x16A  Fsetsockopt       x
+   363   0x16B  Fgetsockopt
+   364   0x16C  Fgetpeername
+   365   0x16D  Fgetsockname      x
+   366   0x16E  Fshutdown         x
 
-Der Quellcode liegt mit allem was benîtigt bei. Darin enthalten ist eine
-leicht verÑnderte Version der PCTOS Bibliothek von Martin ElsÑsser[1].
+Der Quellcode liegt mit allem was benîtigt wird bei. Darin enthalten ist
+eine leicht verÑnderte Version der PCTOS Bibliothek von Martin ElsÑsser[1].
 
 Gerhard Stoll, 2015-09-26
 
 [1] <http://acspro.atari.org/>
- 
+
